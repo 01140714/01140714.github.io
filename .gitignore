@@ -1,0 +1,5 @@
+_drafts/
+_site/
+.git/
+.sass-cache/
+.DS_STORE
