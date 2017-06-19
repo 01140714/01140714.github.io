@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #e2e1e0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+.panel {
+  border-radius: 3px;
+  border: 1px solid #D3D3D3;
+  z-index: 1;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+              0 10px 10px rgba(0,0,0,0.22);
+}
+
+.maincontainer {
+  background-color: #FFFFFF !important;
+  display: block;
+  margin: auto auto;
+  width: 97%;
+  height: 620px;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  display: block;
+  width: 100%;
+  height: 15%;
+}
+
+.content {
+  overflow: scroll;
+  display: block;
+  width: 100%;
+  height: 85%;
+}
