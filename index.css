@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .panel {
@@ -23,15 +23,19 @@ body {
   background-color: #FFFFFF !important;
   display: block;
   margin: auto auto;
-  width: 97%;
-  height: 620px;
+  width: 95%;
+  height: 610px;
 }
 
 .header {
-  border-bottom: 1px solid black;
-  display: block;
+  border-bottom: 1px solid #D3D3D3;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 0;
   width: 100%;
-  height: 15%;
+  max-height: 15%;
 }
 
 .content {
@@ -39,4 +43,31 @@ body {
   display: block;
   width: 100%;
   height: 85%;
+}
+
+.logo {
+  margin: auto 0;
+  font-size: 45px;
+  font-weight: bold;
+  display: block;
+  color: #00C33B;
+}
+
+.test{
+  display: block;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #175EAB;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.test:hover {
+  z-index: 1;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+              0 10px 10px rgba(0,0,0,0.22); 
 }
