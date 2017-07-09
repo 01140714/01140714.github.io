@@ -69,10 +69,47 @@ body {
   margin: 0 10px;
 }
 
+.nav_a:hover {
+  border-bottom: 1px dotted white;
+}
+
 .content {
   overflow-x: hidden;
   overflow-y: scroll;
   display: block;
   width: calc(100% + 17px);
   height: calc(85% + 17px);
+}
+
+.container {
+  margin: 20px;
+}
+
+.post-list {
+  margin-top: 15px;
+}
+
+.post-box {
+  margin: 10px 0;
+}
+
+.post-info {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #00C33B;
+}
+
+.post-title {
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.post-title:hover {
+  border-bottom: 1px dotted #00C33B;
+}
+
+.post-excerpt {
+  margin-top: 5px;
 }

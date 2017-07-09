@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="container">
+  <h1 class="home-title">Recent Posts</h1>
+  <div class="post-list">
+    {% for post in site.posts limit:5 %}
+    <div class="post-box">
+      <div class="post-info">
+        <span class="post-date">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </span>
+        <span class="in"> in </span>
+        <span class="post-categories">
+          {% for category in post.categories %}
+          {{category}}
+          {% endfor %}
+        </span>
+      </div>
+      <a class="post-title" href="{{post.url | prepend:site.baseurl}}">{{ post.title }}</a>
+      <div class="post-excerpt">
+        {{ post.content | strip_html | truncatewords:30 }}
+      </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
