@@ -83,6 +83,7 @@ body {
 
 .container {
   margin: 20px;
+  font-family: Source Sans Pro !important;
 }
 
 .post-list {
@@ -112,4 +113,12 @@ body {
 
 .post-excerpt {
   margin-top: 5px;
+}
+
+.post-meta {
+  color: #00C33B;
+}
+
+.post-header {
+  margin-bottom: 15px;
 }
