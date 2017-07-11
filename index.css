@@ -122,3 +122,7 @@ body {
 .post-header {
   margin-bottom: 15px;
 }
+
+.post-content {
+  line-height: 1.5;
+}
