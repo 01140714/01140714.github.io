@@ -1,0 +1,169 @@
+---
+---
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Cuprum;
+  background-color: #e2e1e0;
+}
+
+body {
+  padding-top: 20px;
+}
+
+.panel {
+  border-radius: 3px;
+  border: 1px solid #D3D3D3;
+  z-index: 1;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+              0 10px 10px rgba(0,0,0,0.22);
+}
+
+.maincontainer {
+  background-color: #FFFFFF !important;
+  display: block;
+  overflow: hidden;
+  margin: auto auto;
+  width: 95%;
+  height: 650px;
+}
+
+.header {
+  background-image: url('../img/header_image.jpg');
+  background-size: 100% auto;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+  display: block;
+  width: 100%;
+  max-height: 15%;
+}
+
+.nav_bar {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  margin: 0;
+}
+
+.nav_bar a{
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: 0;
+}
+
+.nav_logo {
+  font-family: Questrial !important;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-right: 40px;
+}
+
+.nav_a_wrapper {
+  margin: auto 0;
+}
+
+.nav_a {
+  font-family: Jura !important;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.nav_a:hover {
+  border-bottom: 1px dotted white;
+}
+
+.content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  width: calc(100% + 17px);
+  height: calc(85% + 17px);
+}
+
+.container {
+  margin: 20px auto;
+  font-family: Source Sans Pro !important;
+  width: 80%;
+}
+
+.post-list {
+  margin-top: 15px;
+}
+
+.post-box {
+  margin: 10px 0;
+}
+
+.post-info {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #00C33B;
+}
+
+.post-title {
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.post-title:hover {
+  border-bottom: 1px dotted #00C33B;
+}
+
+.post-excerpt {
+  margin-top: 5px;
+}
+
+.post-meta {
+  color: #00C33B;
+}
+
+.post-header {
+  margin-bottom: 15px;
+}
+
+.post-content {
+  line-height: 1.5;
+  width: 100%;                          
+}
+
+.post-content li{
+ list-style-type: none;
+}
+
+.post-content h3{
+  margin-top: 8px;
+}
+
+.post-content blockquote{
+  margin: 8px 0;
+}
+
+pre {
+  border: none !important;
+  border-radius: 0 !important;
+  font-size: 14px !important;
+  padding: 1.5em !important;
+  margin: 10px 0 !important;
+  max-width: 100% !important;
+  overflow-x: scroll;
+}
+
+code {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+@import "syntax-highlighting";

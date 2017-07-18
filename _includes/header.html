@@ -2,6 +2,7 @@
   <nav class="nav_bar">
     <a class="nav_logo" href="/">{{ site.title }}</a>
     <div class="nav_a_wrapper">
+      <a class="nav_a" href="/">Home</a>
       {% for page in site.pages %}
         {% if page.title %}
           <a class="nav_a" href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a>
