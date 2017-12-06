@@ -1,0 +1,51 @@
+loop [fd random 4 6 setc green setc white red wait 50]
+
+to candy cane
+if seconds > 20 [clean]
+loop [fd random 1 3 setc 0]
+
+loop [fd 1 setc 0 fd 1 setc 30 setc -1 setbrightness 100]
+
+
+loop [fd 7 setc color + 30 - 1 wait 100]
+
+
+
+
+christmas-
+loop [setc green fd 1 setc red fd 1 setc white fd 1 wait 100]
+
+candy cane-
+loop [setc red fd 7.5 setc white fd  wait 100]
+
+
+to christmas
+if seconds > 30 [reset]
+repeat forever [setc green fd 1
+setc red fd 1
+setc white fd 1
+wait random 0 150]
+end
+
+
+to xmas
+st
+loop [setpos random 0 15 wait 500]
+end
+
+loop [setc 4.5 fd dot 8 red wait 50
+
+loop [setc green fd 4 setc white fd 3 setc red fd 2 setc purple fd
+to xmas
+wreath
+st
+loop [setpos random 0 15 wait 500]
+end]
+
+to triangle
+
+
+loop [all white setc white setpos +1 wait 2]
+loop
+[setc 20 fd 1 setc 30 fd 1 setc 40 fd 2 setc 50 fd 3 setc 60 fd 4 setc 70 fd 5 setc 80 fd 5 setc 80 fd 6 setbrightness  wait 100]
+end

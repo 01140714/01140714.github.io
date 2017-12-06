@@ -1,0 +1,7 @@
+to christmas
+if seconds > 30 [reset]
+loop [setc green fd 1
+setc red fd 1
+setc white fd 1
+wait random 0 150]
+end
